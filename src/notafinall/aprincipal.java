@@ -4,6 +4,8 @@
  */
 package notafinall;
 
+import formularios.frmnotas;
+
 /**
  *
  * @author LYKAN
@@ -15,6 +17,9 @@ public class aprincipal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        frmnotas n = new frmnotas();
+        n.setVisible(true);
     }
     
 }
+ 
